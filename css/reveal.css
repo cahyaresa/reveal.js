@@ -25,6 +25,59 @@ body {
   color: #000; }
 
 /*********************************************
+* custom styling 
+**********************************************/
+.creator {
+  color: #F90013; }
+
+.fragment-skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .fragment-skill .fragment .skill-source {
+    max-width: 80%;
+    background: none;
+    border: none;
+    box-shadow: none; }
+
+.html, .jsp {
+  color: #ffffff; }
+
+.html-vs-jsp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .html-vs-jsp img {
+    max-width: 80% !important; }
+
+.content-jsp-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.css .header {
+  display: inline-block;
+  float: left;
+  width: 100%; }
+  .css .header .skill-source {
+    width: 15%;
+    border: none;
+    box-shadow: none;
+    float: left; }
+  .css .header h4 {
+    float: left;
+    padding: 100px 30px; }
+
+/*********************************************
  * VIEW FRAGMENTS
  *********************************************/
 .reveal .slides section .fragment {

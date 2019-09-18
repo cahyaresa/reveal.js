@@ -1,0 +1,58 @@
+
+
+.creator {
+    color: #F90013;
+}
+
+.fragment-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .fragment .skill-source {
+        max-width: 80%;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+}
+.html, .jsp {
+    color: #ffffff;
+}
+.html-vs-jsp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: unset;
+    justify-content: center;
+    img {
+        max-width: 80% !important;
+    }
+}
+
+.content-jsp-slide{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.css {
+    .header {
+        display: inline-block;
+        float: left;
+        width: 100%;
+
+        .skill-source {
+            width: 15%;
+            border: none;
+            box-shadow: none;
+            float: left;
+        }
+
+        h4 {
+            float: left;
+            padding: 100px 30px;
+        }
+    }
+}

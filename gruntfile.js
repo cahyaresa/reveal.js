@@ -142,7 +142,7 @@ module.exports = grunt => {
 				tasks: 'css-themes'
 			},
 			css: {
-				files: [ 'css/reveal.scss' ],
+				files: [ 'css/reveal.scss', 'css/theme/custom-scss/*.scss' ],
 				tasks: 'css-core'
 			},
 			test: {
@@ -163,7 +163,7 @@ module.exports = grunt => {
 	});
 
 	// Default task
-	grunt.registerTask( 'default', [ 'css', 'js' ] );
+	grunt.registerTask( 'default', [ 'css', 'js', 'watch' ] );
 
 	// JS task
 	grunt.registerTask( 'js', [ 'jshint', 'uglify', 'qunit' ] );
